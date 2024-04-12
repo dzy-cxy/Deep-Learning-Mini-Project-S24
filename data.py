@@ -83,11 +83,11 @@ def unpickle(file):
 
 def get_dataloader(is_train, batch_size, path, external_dataset_path=None):
     transform_train = transforms.Compose([
-        transforms.RandomCrop(32, padding=4),  
-        transforms.RandomHorizontalFlip(),  
+        transforms.RandomCrop(32, padding=4),  # Randomly crop the data
+        transforms.RandomHorizontalFlip(),  # Flip the data
         transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]), 
-        Cutout(n_holes=1, length=16),
+        transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]), # Normalize the data
+        Cutout(n_holes=1, length=16), # Use "Cutout" trick to hence the training 
     ])
 
 

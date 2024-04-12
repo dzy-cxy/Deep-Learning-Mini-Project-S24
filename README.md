@@ -29,10 +29,7 @@ For plotting the training loss, we just use the log data in `checkpoint/loss_log
 If you want to specify GPU to use, you should set environment variable `CUDA_VISIBLE_DEVICES=0`, for example.
 
 ## References
-- Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, "Deep residual learning for image recognition," In Proceedings of the IEEE conference on computer vision and pattern recognition, 2016.
-- @article{devries2017cutout,  
-  title={Improved Regularization of Convolutional Neural Networks with Cutout},  
-  author={DeVries, Terrance and Taylor, Graham W},  
-  journal={arXiv preprint arXiv:1708.04552},  
-  year={2017}  
-}
+- Krizhevsky, A., Hinton, G., & others. (2009). Learning multiple layers of features from tiny images. Toronto, ON, Canada.
+- He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770–778).
+- DeVries, T., & Taylor, G. W. (2017). Improved regularization of convolutional neural networks with cutout. arXiv preprint arXiv:1708.04552.
+- Loshchilov, I., & Hutter, F. (2016). Sgdr: Stochastic gradient descent with warm restarts. arXiv preprint arXiv:1608.03983.

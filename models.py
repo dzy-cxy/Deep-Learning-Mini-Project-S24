@@ -152,7 +152,8 @@ class ResNetModel:
             milestones=opt.decay_milestones,
             gamma=opt.lr_decay_rate
         )
-
+        
+        # Add dynamic learning scheduler to help the model converge
         self.scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(self.optimizer, T_max=200)
 
     def optimize_params(self, x, label):

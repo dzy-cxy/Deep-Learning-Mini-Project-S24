@@ -56,6 +56,9 @@ class ResNetReduced(nn.Module):
         super(ResNetReduced, self).__init__()
         self.in_channels = 32  # Reduced initial channels
         self.conv1 = nn.Conv2d(3, 32, kernel_size=3, stride=1, padding=1, bias=False)
+        # We have observed that the images in the CIFAR-10 dataset have a resolution of 32x32 pixels, 
+        # which is relatively small compared to other datasets. Consequently, to retain more information during training, 
+        # it is advisable to utilize smaller kernel sizes and remove maxpooling from the network architecture.
         self.bn1 = nn.BatchNorm2d(32)
         self.relu = nn.ReLU(inplace=True)
         self.layer1 = self._make_layer(block, 32, layers[0])

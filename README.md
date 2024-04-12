@@ -30,3 +30,9 @@ If you want to specify GPU to use, you should set environment variable `CUDA_VIS
 
 ## References
 - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, "Deep residual learning for image recognition," In Proceedings of the IEEE conference on computer vision and pattern recognition, 2016.
+- @article{devries2017cutout,  
+  title={Improved Regularization of Convolutional Neural Networks with Cutout},  
+  author={DeVries, Terrance and Taylor, Graham W},  
+  journal={arXiv preprint arXiv:1708.04552},  
+  year={2017}  
+}

@@ -10,7 +10,6 @@
 ```
 mkdir path/to/checkpoint_dir
 python train.py --checkpoint_dir path/to/checkpoint_dir
-
 ```
 
 2. Test

@@ -29,6 +29,7 @@ def train(opt, model):
             model.optimize_params(inputs, labels)
             loss += model.get_current_loss()
             if total_iter % 400 == 0:
+                # Add dynamic learning scheduler to help the model converge
                 model.scheduler.step()
 
 

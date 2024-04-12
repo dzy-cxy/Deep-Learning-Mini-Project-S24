@@ -23,6 +23,7 @@ python test.py --params_path path/to/checkpoint_dir/model_final.pth
 3. Jupyter notebooks for easy visualization and verification
 
 You can run the Jupyter notebook file with clear Visualization plots, which also clearly prints the final test accuracy and number of parameters.
+For plotting the training loss, we just use the log data in `checkpoint/loss_log.txt`.
 
 ## Note
 If you want to specify GPU to use, you should set environment variable `CUDA_VISIBLE_DEVICES=0`, for example.

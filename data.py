@@ -87,7 +87,7 @@ def get_dataloader(is_train, batch_size, path, external_dataset_path=None):
         transforms.RandomHorizontalFlip(),  # Flip the data
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]), # Normalize the data
-        Cutout(n_holes=1, length=16), # Use "Cutout" trick to hence the training 
+        Cutout(n_holes=1, length=16), # Use "Cutout" trick to enhence the training 
     ])
 
 

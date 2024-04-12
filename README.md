@@ -1,4 +1,5 @@
-# Advanced Implementation of ResNet-18 for CIFAR-10 classification-NYU-Deep-Learning-Mini-Project-S24
+# NYU-Deep-Learning-Mini-Project-S24
+Advanced Implementation of ResNet-18 for CIFAR-10 classification 
 
 ## Requirements
 - Python 3.6+

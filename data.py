@@ -26,7 +26,7 @@ class Cutout(object):
         mask = np.ones((h, w), np.float32)
 
         for n in range(self.n_holes):
-        	# (x,y) is the center of cutting
+        # (x,y) is the center of cutting
             y = np.random.randint(h)
             x = np.random.randint(w)
 

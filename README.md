@@ -11,6 +11,8 @@
 mkdir path/to/checkpoint_dir
 python train.py --checkpoint_dir path/to/checkpoint_dir
 
+```
+
 2. Test
 
 When your training is done, the model parameter file `path/to/checkpoint_dir/model_final.pth` will be generated.

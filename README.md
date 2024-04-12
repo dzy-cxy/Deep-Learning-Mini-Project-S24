@@ -11,7 +11,7 @@
 mkdir path/to/checkpoint_dir
 python train.py --checkpoint_dir path/to/checkpoint_dir
 ```
-The training code execution result is in 'checkpoint/loss_log.txt'
+The training code execution result is in `checkpoint/loss_log.txt`
 
 2. Test
 

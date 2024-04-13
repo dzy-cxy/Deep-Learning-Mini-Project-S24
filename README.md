@@ -16,9 +16,9 @@ The training code execution result is in `checkpoint/loss_log.txt`
 
 2. Test
 
-When your training is done, the model parameter file `path/to/checkpoint_dir/model_76000.pth` will be generated.
+When your training is done, the model parameter file `path/to/checkpoint_dir/model_80000.pth` will be generated.
 ```
-python test.py --params_path path/to/checkpoint_dir/model_76000.pth
+python test.py --params_path path/to/checkpoint_dir/model_80000.pth
 ```
 
 3. Jupyter notebooks for easy visualization and verification

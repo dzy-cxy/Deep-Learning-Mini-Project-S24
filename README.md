@@ -23,7 +23,7 @@ python test.py --params_path path/to/checkpoint_dir/model_76000.pth
 
 3. Jupyter notebooks for easy visualization and verification
 
-You can run the Jupyter notebook file with clear visualization plots, which also clearly prints the final test accuracy and number of parameters.
+You can run the Jupyter notebook file `test.ipynb` with clear visualization plots, which also clearly prints the final test accuracy and number of parameters.
 For plotting the training loss, we just use the log data in `checkpoint/loss_log.txt`.
 
 ## Note
